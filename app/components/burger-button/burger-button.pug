@@ -1,0 +1,17 @@
+mixin burger-button()
+  +b.BUTTON.burger-button(type="button").js-burger-button&attributes(attributes)
+    | Open menu
+
+mixin ui-kit-burger-button()
+  +ui-section
+    +ui-section-head
+      +ui-title Burger-button
+      +ui-path
+        p Component: components/burger-button/burger-button
+
+    +ui-section-content()
+      +burger-button
+
+    //- При +ui-section-content(true) контейнер отсутствует
+    //- Для перечисления инлайновых блоков используется миксин +ui-elements-list()
+    //- Рамка вокруг особой секции: +ui-special()

@@ -16,7 +16,11 @@ import '../blocks/rating/rating';
 import '../blocks/dropdown/dropdown';
 import putBlockIntoSlot from '../blocks/js-functions/put-block-into-slot';
 
+import {burgerButton} from "../components/burger-button/burger-button";
+import {menuButton} from "../components/menu/menu";
+
 const $ = window.$;
+
 
 $(() => {
   svg4everybody();
@@ -36,5 +40,8 @@ $(() => {
   scrollAnimation();
   accordion();
   putBlockIntoSlot();
+
+  burgerButton();
+  menuButton();
 });
 /* eslint-enable */

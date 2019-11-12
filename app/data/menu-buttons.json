@@ -1,0 +1,42 @@
+[
+  {
+    "icon": "icon_1.png",
+    "text": "Keyboard Nav"
+  },
+  {
+    "icon": "icon_2.png",
+    "text": "Read Page"
+  },
+  {
+    "icon": "icon_3.png",
+    "text": "Contrast +"
+  },
+  {
+    "icon": "icon_4.png",
+    "text": "Stop Animations"
+  },
+  {
+    "icon": "icon_5.png",
+    "text": "Bigger Text"
+  },
+  {
+    "icon": "icon_6.png",
+    "text": "Legible Fonts"
+  },
+  {
+    "icon": "icon_7.png",
+    "text": "Big Cursor"
+  },
+  {
+    "icon": "icon_8.png",
+    "text": "Tooltips"
+  },
+  {
+    "icon": "icon_9.png",
+    "text": "Highlight Links"
+  },
+  {
+    "icon": "icon_10.png",
+    "text": "Page Structure"
+  }
+]
